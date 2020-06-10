@@ -1,0 +1,100 @@
+body{
+	background-color:black;
+
+
+}
+h2 {
+	color:white;
+	font-size:40px
+}
+h3{
+	color:black;
+	font-size:22px
+}
+.car{
+  color:black;
+  border: 1px solid black;
+  font-family:comic sans MS;
+  font-size:18px;
+  letter-spacing: 5px;
+  background-color: lightblue;
+   
+ 
+
+}
+.dynamic{
+  width: 500px;
+  height: 250px;
+ color:black;
+  border: 1px solid black;
+  font-family:comic sans MS;
+  font-size:18px;
+ letter-spacing: 5px;
+  background-color: lavender;
+ 
+ float:right;
+}
+
+.static{
+ width: 500px;
+  height: 250px;
+  color:black;
+  border: 1px solid black;
+  font-family:comic sans MS;
+  font-size:18px;
+ letter-spacing: 5px;
+ float:left;
+  background-color: lavender;
+}
+.im{
+ 
+  margin: auto;
+
+   height:250px;
+   text-align:center;
+  
+  
+}
+img {
+  margin-left: auto;
+  margin-right: auto;}
+
+ul.topnav {
+  
+  list-style-type: none;
+  margin: 0;
+  padding:15px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: green;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  
+  ul.topnav li {float: none;}
+	
+	
+	#iamg{margin-left: 36%;}
+
+	
+		
+}
+
+#hu {
+	background-color: white;
+}

@@ -1,0 +1,81 @@
+
+h2 {
+	color:brown ;
+	text-shadow:  5px 5px black;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 60px;
+}
+
+body {margin: 0;}
+
+p {
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	font-family: "euphoria-script";
+	font-size: 20px;
+}
+
+center {
+	font-family: arbutus;
+	font-size: 25px;
+}
+
+ul.topnav {
+  
+  list-style-type: none;
+  margin: 0;
+  padding:15px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: green;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  
+  ul.topnav li {float: none;}
+	
+	
+	#iamg{margin-left: 36%;}
+
+	
+		
+}
+
+
+#bullet {
+
+}
+
+#img {
+	width: 10px;
+	height: 5px;
+	
+}
+
+#iamg {
+	
+}
+
+
+
+p {
+	font-size: 25px;
+	font-style: oblique;
+}

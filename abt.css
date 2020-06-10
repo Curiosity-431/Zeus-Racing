@@ -1,0 +1,93 @@
+
+h1
+{
+	text-align:center;
+	font-size:60;
+	color:blue;
+}
+ h3
+{
+	text-align:center;
+	font-size:50;
+	color:white;
+}
+h4
+{
+	color:blue;
+	font-size:30px;
+}
+.detail
+{
+	height:650px;
+	width:100%;
+	background-image:url('contact.png');
+	
+}
+	
+
+#frm{
+	text-align:center;
+	padding-top:430px;
+	color:white;
+	font-size:22px;
+
+}
+.address
+{
+	height:200px;
+ width:45%;
+  color:blue;
+  
+  font-family:comic sans MS;
+  font-size:18px;
+  letter-spacing: 5px;
+  float:left;
+  background-color: white;
+}
+.contact{
+ 
+ height:200px;
+ width:45%;
+  color:blue;
+  
+  font-family:comic sans MS;
+  font-size:18px;
+ letter-spacing: 5px;
+ float:right;
+  background-color:white;
+}
+ul.topnav {
+  
+  list-style-type: none;
+  margin: 0;
+  padding:15px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: green;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  
+  ul.topnav li {float: none;}
+	
+	
+	#iamg{margin-left: 36%;}
+
+	
+		
+}
