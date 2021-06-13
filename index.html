@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <title>Zeus-Home</title>
 <link rel='manifest' href='manifest.json'>
-<link href="Home.css" rel="stylesheet" type="text/css">
+<link href="assets/css/Home.css" rel="stylesheet" type="text/css">
 <style>
 	
 	
 </style>
 </head>
 
-<body background="background.jpg">
+<body background="assets/img/background.jpg">
 	<ul class="topnav">
 	  <li><a href="about.html">About</a></li>
 	  <li><a href="Sponsor.html">Sponsers</a></li>
@@ -20,18 +20,18 @@
 	  <li><a href="Event Objectives.html">Objectives</a></li>
 	  <li><a href="Events.html">Events</a></li>
 	  <li><a class="active" href="http://zeusracing.in/">Home</a></li>
-	  <img id="iamg" src= "edit2.jpg" width="125" height="47" alt="Zeus Racing"/>
+	  <img id="iamg" src= "assets/img/edit2.jpg" width="125" height="47" alt="Zeus Racing"/>
   
 </ul>
 	
-<center><img src="Zeus png.png" width="300" height="150" alt="Zeus Racing"/></center>
+<center><img src="assets/img/Zeus png.png" width="300" height="150" alt="Zeus Racing"/></center>
 
 <div><h2 align="center"><strong>Who are we?</strong></h2>
 <p align="justify"> <strong>A little crew of engineering students who have started working towards their passion. Amidst the normal college life of engineering student which dealt with writing examination and doing assignment presentation,our craze and love towards cars, drove us to form an effective team for making our dream come true.</strong></p></div>
 	<div><p><center><strong>"A Dream of making a quality Racing Car"</strong></center></p></div><br>
 	
 	<div><center><video id="zeusvid" onClick="stop()" width="600" autoplay loop>
-	<source src="zeus1.mp4" type="video/mp4">
+	<source src="assets/img/zeus1.mp4" type="video/mp4">
 	Please Use Browser Which Supports Videos
 	</video></center></div>
 
@@ -57,15 +57,9 @@ function stop() {
   else 
     myVideo.pause();
 }
-// This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
 
-// Add this below content to your HTML page inside a <script type="module"></script> tag, or add the js file to your page at the very top to register service worker
-// If you get an error about not being able to import, double check that you have type="module" on your <script /> tag
 
-/*
- This code uses the pwa-update web component https://github.com/pwa-builder/pwa-update to register your service worker,
- tell the user when there is an update available and let the user know when your PWA is ready to use offline.
-*/
+
 
 import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 

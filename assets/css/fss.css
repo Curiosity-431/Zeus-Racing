@@ -68,12 +68,12 @@ body{
 }
 
 @keyframes imgg {
-  0% {background-image: url(screen-shot-2018-07-09-at-8-51-28-am-1531140860.png);}
-  20%{background-image: url(2017Jul26002133.jpg);}
-	40%{background-image: url(racing.jpg);}
-	60%{background-image: url(carrr.jpg);}
-	80%{background-image:url(formula1.jpg);}
-	100%{background-image: url(screen-shot-2018-07-09-at-8-51-28-am-1531140860.png);}
+  0% {background-image: url(/assets/img/screen-shot-2018-07-09-at-8-51-28-am-1531140860.png);}
+  20%{background-image: url(/assets/img/2017Jul26002133.jpg);}
+	40%{background-image: url(/assets/img/racing.jpg);}
+	60%{background-image: url(/assets/img/carrr.jpg);}
+	80%{background-image:url(/assets/img/formula1.jpg);}
+	100%{background-image: url(/assets/img/screen-shot-2018-07-09-at-8-51-28-am-1531140860.png);}
 	
 }
 
